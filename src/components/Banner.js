@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../assets/suho.jpeg';
-import Image2 from '../assets/avatar.svg';
+// import Image2 from '../assets/avatar.svg';
 import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
