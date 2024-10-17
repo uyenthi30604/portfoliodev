@@ -1,10 +1,11 @@
 import React from 'react';
-import Image from '../assets/suho.jpeg';
+import Image from '../assets/thi-cover.jpeg';
 // import Image2 from '../assets/avatar.svg';
 import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
+import Pdf from "../assets/thi-resume.pdf"
 const Banner = () => {
   return (
     <section className='min-h-[85vh] lg: min-h-[78vh] flex items-center' id='home'>
@@ -30,12 +31,10 @@ const Banner = () => {
                 wrapper='span'
               />
             </motion.div>
-            <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>introduce yourself</motion.p>
+            <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>I'm a font-end developer and customer support specialist with almost 3 years experience</motion.p>
             <motion.div variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='flex max-w-max items-center gap-x-6 mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'>Contact me</button>
-              <a href='#' className='text-gradient btn-link'>
-                {' '}
-                My portfolio
+              <a href={Pdf} className='text-gradient btn-link border p-2 rounded-2xl' target = "_blank">
+                Resume
               </a>
             </motion.div>
             {/* socials */}

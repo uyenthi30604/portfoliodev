@@ -1,4 +1,5 @@
 import React from 'react';
+import {Route, Routes, BrowserRouter} from "react-router-dom"
 // components
 import Banner from './components/Banner';
 import Header from './components/Header';
@@ -15,10 +16,9 @@ const App = () => {
       <Banner />
       <Nav />
       <About />
-      <Services />
+      {/* <Services /> */}
       <Work />
       <Contact />
-      {/* <div className='h-[4000px]'></div> */}
     </div>
   );
 };

@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
 //img
-import Img1 from "../assets/portfolio-img1.png";
-import Img2 from "../assets/portfolio-img2.png";
-import Img3 from "../assets/portfolio-img3.png";
+import Img1 from "../assets/ics.jpg";
+import Img2 from "../assets/mifs.png";
+import Img3 from "../assets/hdvn.png";
 
 const Work = () => {
   return (
@@ -38,7 +38,7 @@ const Work = () => {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project title</span>
+                <span className="text-3xl text-white">Inventory Control System</span>
               </div>
             </div>
           </motion.div>
@@ -59,7 +59,7 @@ const Work = () => {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project title</span>
+                <span className="text-3xl text-white">Maruei Vietname website</span>
               </div>
             </div>
             {/* image */}
@@ -78,7 +78,7 @@ const Work = () => {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project title</span>
+                <span className="text-3xl text-white">HDVN Inspection system</span>
               </div>
             </div>
           </motion.div>
