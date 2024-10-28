@@ -31,7 +31,7 @@ const Banner = () => {
                 wrapper='span'
               />
             </motion.div>
-            <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>I'm a font-end developer and customer support specialist with almost 3 years experience</motion.p>
+            <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>I'm a font-end developer and customer support specialist with 2 and a half years experience</motion.p>
             <motion.div variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='flex max-w-max items-center gap-x-6 mb-12 mx-auto lg:mx-0'>
               <a href={Pdf} className='text-gradient btn-link border p-2 rounded-2xl' target = "_blank">
                 Resume
@@ -39,15 +39,11 @@ const Banner = () => {
             </motion.div>
             {/* socials */}
             <motion.div variants={fadeIn('up', 0.7)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href='#'>
-                <FaYoutube />
-              </a>
-              <a href='#'>
+             
+              <a href='https://github.com/uyenthi30604/portfolio26.git' target = "_blank">
                 <FaGithub />
               </a>
-              <a href='#'>
-                <FaDribbble />
-              </a>
+              
             </motion.div>
           </div>
           {/* image */}

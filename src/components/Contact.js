@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
+import { FaPhoneAlt, FaDribbble } from 'react-icons/fa';
 
 const Contact = () => {
   return <section className='py-16 lg:section' id='contact'>
@@ -17,10 +18,10 @@ const Contact = () => {
         </motion.div>
         {/* form */}
         <motion.form variants={fadeIn('left', 0.3)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>
-          <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" name="" id="" placeholder='Your name'/>
-          <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" name="" id="" placeholder='Your email'/>
-          <textarea className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12' type="text" name="" id="" placeholder='Your message' ></textarea>
-          <button className='btn btn-lg'>Sent message</button>
+          <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" name="" id="" placeholder='uyenthi30604@gmail.com' readOnly />
+          <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" name="" id="" placeholder='0382911981' readOnly/>
+          {/* <textarea className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12' type="text" name="" id="" placeholder='Your message' ></textarea> */}
+          <button className='btn btn-lg' disabled>Have a nice day</button>
         </motion.form>
       </div>
     </div>

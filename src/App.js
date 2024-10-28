@@ -19,6 +19,9 @@ const App = () => {
       {/* <Services /> */}
       <Work />
       <Contact />
+      <div className='text-end'>
+        <p style={{color:"grey", fontSize:"13px"}}>Inspired by Cristian Mihai</p>
+      </div>
     </div>
   );
 };
