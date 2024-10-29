@@ -29,7 +29,7 @@ const Work = () => {
                 <p className="max-w-sm mb-16"> 
                   These are my 3 latest web applications. These projects are utilized in a production company's digital exchange procedure.
                 </p>
-                <button className="btn btn-sm" onClick={() => setOpen(true)}>View detail</button>
+                <button className="btn btn-sm" onClick={() => setOpen(true)}>View details</button>
               </div>
               {/* image */}
               <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
