@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio26/static/css/main.283cd52b.css",
-    "main.js": "/portfolio26/static/js/main.4d8fbb48.js",
+    "main.js": "/portfolio26/static/js/main.e89ddafa.js",
     "static/media/site-bg.jpg": "/portfolio26/static/media/site-bg.54724d703024833ef9c6.jpg",
     "static/media/laptop-cover.jpeg": "/portfolio26/static/media/laptop-cover.62cfc2a42575954683bb.jpeg",
     "static/media/services.png": "/portfolio26/static/media/services.8e66d4fbbd95de45b8db.png",
     "static/media/about.png": "/portfolio26/static/media/about.34da930ab4436bc41a33.png",
     "static/media/thi-cover.jpeg": "/portfolio26/static/media/thi-cover.50645b259dacb7ccfdb4.jpeg",
-    "static/media/thi-resume.pdf": "/portfolio26/static/media/thi-resume.bca1f0074d5dc6480413.pdf",
+    "static/media/thi-resume.pdf": "/portfolio26/static/media/thi-resume.0d10c5ba31fa80146ee5.pdf",
     "static/media/mifs.png": "/portfolio26/static/media/mifs.09607b69b8e5ad8ddf9d.png",
     "static/media/thi-avatar.jpeg": "/portfolio26/static/media/thi-avatar.7e9173856e3c20ee2ccc.jpeg",
     "static/media/hdvn.png": "/portfolio26/static/media/hdvn.67f47daa791943e8b8fd.png",
@@ -15,10 +15,10 @@
     "static/media/logo.svg": "/portfolio26/static/media/logo.1ed738f9eb92c6c36939bc033726e44c.svg",
     "index.html": "/portfolio26/index.html",
     "main.283cd52b.css.map": "/portfolio26/static/css/main.283cd52b.css.map",
-    "main.4d8fbb48.js.map": "/portfolio26/static/js/main.4d8fbb48.js.map"
+    "main.e89ddafa.js.map": "/portfolio26/static/js/main.e89ddafa.js.map"
   },
   "entrypoints": [
     "static/css/main.283cd52b.css",
-    "static/js/main.4d8fbb48.js"
+    "static/js/main.e89ddafa.js"
   ]
 }
