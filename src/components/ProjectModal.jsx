@@ -90,19 +90,25 @@ function ProjectModal({ open, onClose, children }) {
                 {/* content */}
                 <div>
                   <h2 style={{fontWeight:"bold", fontSize:"24px"}} className="font-secondary mt-2">ICS Project</h2>
+                  <div>
+                    <Button style={{height:'20px', width:'30px'}} variant="outlined">NextJs</Button>
+                  </div>
                   <p className="mt-2 font-secondary"> 
                     Inventory Control System Software was created for the Production Management Department to handle the quantity of products and materials that are imported and exported. My role in the project are:
                   </p>
                   <div className="ml-4 font-secondary">
                     <ul style={{listStyleType:"initial"}}>
                         <li>
+                          Taking customer's requirements, team discussion and giving solutions
+                        </li>
+                        <li>
                           UX/UI design for general information, material, report and management pages
                         </li>
+                        <li>Collaborate with team members to provide appropriate solutions for customer issues</li>
                         <li>
                           Make instruction manual
                         </li>
                         <li>Explain and address customer issues</li>
-                        <li>Collaborate with team members to provide appropriate solutions for customer issues</li>
                         <li>Gather and respond to customer feedback and suggestions</li>
                       </ul>
                   </div>
@@ -136,6 +142,9 @@ function ProjectModal({ open, onClose, children }) {
                 {/* content */}
                 <div>
                   <h2 style={{fontWeight:"bold", fontSize:"24px"}} className="font-secondary mt-2">MIFS Project </h2>
+                  <div>
+                    <Button style={{height:'20px', width:'100px'}} variant="outlined">Angular</Button>
+                  </div>
                   <p className="mt-2 font-secondary"> 
                     MIFS is a project to manage machine breakdown time and electricity comsumption. This project is written by Angular and NestJs. My responsibilities for this project is UX/UI design for some registration and statistic pages
                   </p>
@@ -169,11 +178,17 @@ function ProjectModal({ open, onClose, children }) {
                 {/* content */}
                 <div>
                   <h2 style={{fontWeight:"bold", fontSize:"24px"}} className="font-secondary mt-2">IS Project</h2>
+                  <div>
+                    <Button style={{height:'20px', width:'30px'}} variant="outlined">PHP</Button>
+                  </div>
                   <p className="mt-2 font-secondary"> 
                     Inspection System is a project that is implement to support measure process of car components. PHP is main programming language here. My role in the project are:
                   </p>
                   <div className="ml-4 font-secondary">
                     <ul style={{listStyleType:"initial"}}>
+                    <li>
+                          Taking customer's requirements, team discussion and giving solutions
+                        </li>
                         <li>
                           UX/UI design for general information, report and management pages
                         </li>
@@ -196,7 +211,7 @@ function ProjectModal({ open, onClose, children }) {
         {/* <Button style={{color:'black', border:'solid 1px'}} onClick={onClose} autoFocus variant="contained" color='info'>
           Close
           </Button> */}
-        <Button onClick={onClose}>Close</Button>
+        <Button onClick={onClose} variant="outlined" color="secondary">Close</Button>
       </DialogActions>
     </Dialog>
   );

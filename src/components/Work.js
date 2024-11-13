@@ -43,7 +43,7 @@ const Work = () => {
                 />
                 {/* pretitle */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                  <span className="text-gradient">UI/UX Design <br />Customer Support</span>
+                  <span className="text-gradient">Front-end developer <br />Customer Support</span>
                 </div>
                 {/* title */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
@@ -64,7 +64,7 @@ const Work = () => {
                 />
                 {/* pretitle */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                  <span className="text-gradient">UI/UX Design</span>
+                  <span className="text-gradient">Front-end developer</span>
                 </div>
                 {/* title */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-6 transition-all duration-700 z-50">
@@ -83,7 +83,7 @@ const Work = () => {
                 />
                 {/* pretitle */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                  <span className="text-gradient">UI/UX Design<br />Customer Support</span>
+                  <span className="text-gradient">Front-end developer<br />Customer Support</span>
                 </div>
                 {/* title */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">

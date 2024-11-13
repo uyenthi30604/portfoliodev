@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio26/static/css/main.283cd52b.css",
-    "main.js": "/portfolio26/static/js/main.e89ddafa.js",
+    "main.js": "/portfolio26/static/js/main.09ab161c.js",
     "static/media/site-bg.jpg": "/portfolio26/static/media/site-bg.54724d703024833ef9c6.jpg",
     "static/media/laptop-cover.jpeg": "/portfolio26/static/media/laptop-cover.62cfc2a42575954683bb.jpeg",
     "static/media/services.png": "/portfolio26/static/media/services.8e66d4fbbd95de45b8db.png",
@@ -15,10 +15,10 @@
     "static/media/logo.svg": "/portfolio26/static/media/logo.1ed738f9eb92c6c36939bc033726e44c.svg",
     "index.html": "/portfolio26/index.html",
     "main.283cd52b.css.map": "/portfolio26/static/css/main.283cd52b.css.map",
-    "main.e89ddafa.js.map": "/portfolio26/static/js/main.e89ddafa.js.map"
+    "main.09ab161c.js.map": "/portfolio26/static/js/main.09ab161c.js.map"
   },
   "entrypoints": [
     "static/css/main.283cd52b.css",
-    "static/js/main.e89ddafa.js"
+    "static/js/main.09ab161c.js"
   ]
 }
