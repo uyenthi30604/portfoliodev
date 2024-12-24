@@ -40,11 +40,15 @@ const About = () => {
               I'm a Freelance Front-end Developer with over 2 years of
               experience.
             </h3> */}
-            <p className="mb-6">
-              As a front end developer and customer support specialist, I have
+            {/* 
+            As a front end developer and customer support specialist, I have
               desire to ensure high-quality user experiences. Passionate about
               improving both the technical and customer-facing aspects of
               digital products.
+            */}
+            <p className="mb-6">
+              
+              I aim to combine my technical expertise and a strong understanding of user needs to deliver clear, accurate, and accessible documentation, bridging the gap between complex systems and end users.
             </p>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">

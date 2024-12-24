@@ -106,7 +106,7 @@ function ProjectModal({ open, onClose, children }) {
                         </li>
                         <li>Collaborate with team members to provide appropriate solutions for customer issues</li>
                         <li>
-                          Make instruction manual
+                          Make user manual
                         </li>
                         <li>Explain and address customer issues</li>
                         <li>Gather and respond to customer feedback and suggestions</li>
@@ -146,7 +146,7 @@ function ProjectModal({ open, onClose, children }) {
                     <Button style={{height:'20px', width:'100px'}} variant="outlined">Angular</Button>
                   </div>
                   <p className="mt-2 font-secondary"> 
-                    MIFS is a project to manage machine breakdown time and electricity comsumption. This project is written by Angular and NestJs. My responsibilities for this project is UX/UI design for some registration and statistic pages
+                    MIFS is a project to manage machine breakdown time and electricity comsumption. This project is written by Angular and NestJs. My responsibilities for this project is UX/UI design for registration and statistic pages
                   </p>
                 </div>
               </div>
@@ -193,7 +193,7 @@ function ProjectModal({ open, onClose, children }) {
                           UX/UI design for general information, report and management pages
                         </li>
                         <li>
-                          Make instruction manual
+                          Make user manual
                         </li>
                         <li>Explain and address customer issues</li>
                         <li>Collaborate with team members to provide appropriate solutions for customer issues</li>

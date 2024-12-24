@@ -5,7 +5,7 @@ import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import Pdf from "../assets/thi-resume.pdf"
+import Pdf from "../assets/thi-resume-technical.pdf"
 const Banner = () => {
   return (
     <section className='min-h-[85vh] lg: min-h-[78vh] flex items-center' id='home'>
@@ -31,7 +31,7 @@ const Banner = () => {
                 wrapper='span'
               />
             </motion.div>
-            <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>I'm a font-end developer and customer support specialist with 2 and a half years experience</motion.p>
+            <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>I'm a front-end developer and customer support specialist with 2.5 years of experience, including creating technical documentation. Seeking to transition into a Technical Writer role</motion.p>
             <motion.div variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='flex max-w-max items-center gap-x-6 mb-12 mx-auto lg:mx-0'>
               <a href={Pdf} className='text-gradient btn-link border p-2 rounded-2xl' target = "_blank">
                 Resume
