@@ -31,7 +31,7 @@ const Banner = () => {
                 wrapper='span'
               />
             </motion.div>
-            <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>I'm a front-end developer and customer support specialist with 2.5 years of experience, including creating technical documentation. Seeking to transition into a Technical Writer role</motion.p>
+            <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>I’m a frontend developer and customer support specialist committed to delivering high-quality user experiences, with 2.5 years of experience.</motion.p>
             <motion.div variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='flex max-w-max items-center gap-x-6 mb-12 mx-auto lg:mx-0'>
               <a href={Pdf} className='text-gradient btn-link border p-2 rounded-2xl' target = "_blank">
                 Resume

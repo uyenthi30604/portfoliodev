@@ -47,8 +47,7 @@ const About = () => {
               digital products.
             */}
             <p className="mb-6">
-              
-              I aim to combine my technical expertise and a strong understanding of user needs to deliver clear, accurate, and accessible documentation, bridging the gap between complex systems and end users.
+            Passionate about enhancing both the technical functionality and customer-facing elements of digital products, I strive to create solutions that are efficient, user-friendly, and visually engaging. My goal is to contribute to projects that prioritize innovation and seamless interaction, ensuring value for both users and stakeholders.
             </p>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
