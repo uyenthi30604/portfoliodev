@@ -5,7 +5,7 @@ import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import Pdf from "../assets/thi-resume-technical.pdf"
+import Pdf from "../assets/thi-dev-resume.pdf"
 const Banner = () => {
   return (
     <section className='min-h-[85vh] lg: min-h-[78vh] flex items-center' id='home'>
@@ -40,7 +40,7 @@ const Banner = () => {
             {/* socials */}
             <motion.div variants={fadeIn('up', 0.7)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
              
-              <a href='https://github.com/uyenthi30604/portfolio26.git' target = "_blank">
+              <a href='https://github.com/uyenthi30604/portfoliodev.git' target = "_blank">
                 <FaGithub />
               </a>
               
