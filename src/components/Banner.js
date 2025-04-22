@@ -20,9 +20,9 @@ const Banner = () => {
               <span className='mr-4 text-white'>I am a</span>
               <TypeAnimation
                 sequence={[
-                  'front-end developer',
+                  'web developer',
                   2000,
-                  'customer supporter',
+                  'software developer',
                   2000,
                 ]}
                 speed={50}
@@ -33,7 +33,7 @@ const Banner = () => {
             </motion.div>
             <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>
               {/* I’m a frontend developer and customer support specialist committed to delivering high-quality user experiences, with 2.5 years of experience. */}
-              I’m a frontend developer that aim to create intuitive and impactful digital experiences while continuously learning and refining my skills, with 2.5 years of experience.
+              I’m a web developer aiming to create intuitive and impactful digital experiences while continuously learning and refining my skills. With 2.5 years of experience, I am committed to delivering innovative solutions that make a difference.
               </motion.p>
             <motion.div variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'} viewport={{once: false, amount:0.7}} className='flex max-w-max items-center gap-x-6 mb-12 mx-auto lg:mx-0'>
               <a href={Pdf} className='text-gradient btn-link border p-2 rounded-2xl' target = "_blank">

@@ -47,7 +47,9 @@ const About = () => {
               digital products.
             */}
             <p className="mb-6">
-            Passionate about enhancing both the technical functionality and customer-facing elements of digital products, I strive to create solutions that are efficient, user-friendly, and visually engaging. My goal is to contribute to projects that prioritize innovation and seamless interaction, ensuring value for both users and stakeholders.
+            As a web developer, I specialize in creating reliable and scalable software systems. My skills include working with RESTful APIs, Object-Oriented Programming, and version control using Git. I thrive in collaborative environments and am dedicated to delivering high-quality solutions that align with user needs and business goals.
+
+
             </p>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">

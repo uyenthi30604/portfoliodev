@@ -94,22 +94,27 @@ function ProjectModal({ open, onClose, children }) {
                     <Button style={{height:'20px', width:'30px'}} variant="outlined">NextJs</Button>
                   </div>
                   <p className="mt-2 font-secondary"> 
-                    Inventory Control System Software was created for the Production Management Department to handle the quantity of products and materials that are imported and exported. My role in the project are:
+                  A production management tool designed to track material and product imports and exports, manage production plans, and provide inventory alerts to ensure sufficient stock for future production.   
                   </p>
+                  <b className="text-md">Responsibilities:</b>
                   <div className="ml-4 font-secondary">
+                    
                     <ul style={{listStyleType:"initial"}}>
                         <li>
-                          Taking customer's requirements, team discussion and giving solutions
+                        Discussed Department of Production Control requirements and analyzed practical processes to propose effective solutions.
                         </li>
                         <li>
-                          UX/UI design for general information, material, report and management pages
+                        Collaborated with the team to design the database, develop APIs, create workflows, and plan development.
                         </li>
-                        <li>Collaborate with team members to provide appropriate solutions for customer issues</li>
+                        <li>Coded and tested system features to ensure reliability and functionality.
+                        </li>
                         <li>
-                          Make user manual
+                        Coded and tested features to ensure functionality and reliability.
                         </li>
-                        <li>Explain and address customer issues</li>
-                        <li>Gather and respond to customer feedback and suggestions</li>
+                        <li>Conducted weekly meetings to share progress, gather feedback, and enhance the software.
+                        </li>
+                        <li>Created user manuals and documented source code for future maintenance.
+                        </li>
                       </ul>
                   </div>
                   
@@ -146,8 +151,22 @@ function ProjectModal({ open, onClose, children }) {
                     <Button style={{height:'20px', width:'100px'}} variant="outlined">Angular</Button>
                   </div>
                   <p className="mt-2 font-secondary"> 
-                    MIFS is a project to manage machine breakdown time and electricity comsumption. This project is written by Angular and NestJs. My responsibilities for this project is UX/UI design for registration and statistic pages
+                  A system designed to track machine downtime, collect and analyze NG (non-good) information, visualize electrical consumption, and generate statistical reports.
                   </p>
+                  <b className="text-md">Responsibilities:</b>
+                  <div className="ml-4 font-secondary">
+                  
+                    <ul style={{listStyleType:"initial"}}>
+                        <li>
+                        Collaborated with the Maintenance Department to understand reporting needs and requirements.
+                        </li>
+                        <li>
+                        Visualized NG names, effect rates, and electrical consumption data for actionable insights.
+                        </li>
+                        <li>Coded and tested features to ensure accurate data collection and reporting.
+                        </li>
+                      </ul>
+                  </div>
                 </div>
               </div>
             </Typography>
@@ -182,22 +201,26 @@ function ProjectModal({ open, onClose, children }) {
                     <Button style={{height:'20px', width:'30px'}} variant="outlined">PHP</Button>
                   </div>
                   <p className="mt-2 font-secondary"> 
-                    Inspection System is a project that is implement to support measure process of car components. PHP is main programming language here. My role in the project are:
+                  A system developed to inspect input parts, manage inspection standards, record inspection values, and generate reports and charts for quality management.
                   </p>
+                  <b className="text-md">Responsibilities:</b>
                   <div className="ml-4 font-secondary">
                     <ul style={{listStyleType:"initial"}}>
                     <li>
-                          Taking customer's requirements, team discussion and giving solutions
+                        Discussed customers requirements and analyzed practical processes to propose effective solutions.
                         </li>
                         <li>
-                          UX/UI design for general information, report and management pages
+                        Collaborated with the team to design the database, develop APIs, create workflows, and plan development.
+                        </li>
+                        <li>Coded and tested system features to ensure reliability and functionality.
                         </li>
                         <li>
-                          Make user manual
+                        Coded and tested features to ensure functionality and reliability.
                         </li>
-                        <li>Explain and address customer issues</li>
-                        <li>Collaborate with team members to provide appropriate solutions for customer issues</li>
-                        <li>Gather and respond to customer feedback and suggestions</li>
+                        <li>Conducted weekly meetings to share progress, gather feedback, and enhance the software.
+                        </li>
+                        <li>Created user manuals and documented source code for future maintenance.
+                        </li>
                     </ul>
                   </div>
                   
